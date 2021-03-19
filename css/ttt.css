@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+html{
+    background-color: #333;
+    font: 16pt/17.6pt Halvetica, Arial, sans-serif;
+    color: gainsboro;
+}
+body{
+    margin: 5vh;
+}
+
+.container{
+    display: flex;
+}
+.container:nth-of-type(1){
+    border-bottom: solid 2px #cdcdcd;
+}
+.container:nth-of-type(3){
+    border-top: solid 2px #cdcdcd;
+}
+.sbs{
+    min-width: 33%;
+    width:calc(100vh / 3);
+    height: calc(90vh / 3);
+    display: inline-block;
+}
+.left{
+    border-right: solid 2px #cdcdcd;
+}
+.right{
+    border-left: solid 2px #cdcdcd;
+}
+.content{
+    font-size: 8rem;
+    margin:25% 0;
+    text-align: center;
+}
+.sbs:nth-of-type(2) .content{
+}

@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+}
+html{
+    background-color: #333;
+    font: 16pt/17.6pt Halvetica, Arial, sans-serif;
+    color: gainsboro;
+}
+.container{
+    display: flex;
+}
+.sbs{
+    border: solid lightcoral 1px;
+    width: 49%;
+    display: inline-block;
+}

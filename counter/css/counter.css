@@ -1,0 +1,23 @@
+main {
+    max-width: 440px;
+}
+
+.btn-35 {
+    width: 30%;
+}
+
+.red {
+    color: red;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+#tot {
+    text-align: center;
+}
